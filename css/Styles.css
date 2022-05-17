@@ -1,0 +1,166 @@
+/* 
+#AUTORES:
+#CARLOS SANTIAGO LAGOS MEDINA
+#ALEJANDRO ELIAS MENDOZA PEÑA
+
+#DESARROLLO WEB 
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav ul li{
+    float:left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+.clearfix{
+    clear:both;
+}
+
+nav p{
+    position: relative;
+    float: right;
+    top: 10px;
+    left: 15px;
+}
+.search input[type=text]{
+    width:500px;
+    height:25px;
+    border-radius:25px;
+    border: 1px solid black;
+}
+      
+.search{
+    float:left;
+    margin:25px;
+    margin-right: 450px;
+    position: relative;
+    top: 3px;
+}
+      
+.search button{
+    background-color: #161515;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+} 
+
+#MainContent{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+    min-height: 200px;
+    text-align:justify;
+
+}
+
+#MainContent input{
+    background-color: white;
+    margin-bottom: 10px;
+    height: 20px;
+    width: auto;
+}
+#MainContent img{
+    margin-bottom: 20px;
+    padding: 12px; 
+    position:relative;
+    margin: 12px; 
+    height: 250px;
+    width: 400px;
+    float: left;
+
+}
+
+#container{
+    width: 90%;
+    margin: 2px auto;
+    text-align: justify;
+    
+    
+}
+
+#container ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+
+#container a{
+    text-decoration: none;
+    Color: black;
+    font-size: medium;
+
+}
+#MainArticle{
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+
+#content img{
+    margin-bottom: 20px; 
+    margin: 12px; 
+    height: 80px;
+    width: 80px;
+    float: left;
+    
+}
+
+#content {
+    float:left;
+    width: 83%;
+    min-height: 250px;
+
+}
+
+#content article{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    min-height: 350px;
+    padding: 5px;
+    list-style: none;
+    
+}
+aside{
+    float:right;
+    width: 15%;
+    border: 1px solid black;
+    min-height:720px;
+    text-align:center;
+    padding: 5px;
+
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid black;
+}
+
+aside button{
+    background-color: white;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+}
